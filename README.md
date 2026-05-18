@@ -6,7 +6,7 @@ BillKaw is a sleek, animated bill-splitting web app built for the Malaysian cont
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -25,7 +25,7 @@ BillKaw is a sleek, animated bill-splitting web app built for the Malaysian cont
 
 ---
 
-## 🛠 Tech Stack
+Tech Stack
 
 | Layer | Choice | Why |
 |---|---|---
@@ -38,7 +38,7 @@ BillKaw is a sleek, animated bill-splitting web app built for the Malaysian cont
 
 ---
 
-## 🚀 Getting Started
+## ## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -81,7 +81,7 @@ vercel
 
 ---
 
-## 📱 How to Use
+##  How to Use
 
 1. **Setup** — Name your bill and add everyone who's splitting it (optionally add their email for direct bill delivery)
 2. **Items** — Add each item, select who paid for it physically, and choose how to split the cost:
@@ -93,7 +93,7 @@ vercel
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 billkaw/
@@ -108,7 +108,7 @@ billkaw/
 
 ---
 
-## 🧠 Key Technical Decisions
+##  Key Technical Decisions
 
 ### Why all in one file?
 For a 1-week build, keeping all components in `App.jsx` meant faster iteration — no import juggling. The component boundaries (TabSetup, TabItems, TabCharges, TabResults, EmailModal) are clean and could be split into separate files trivially.
@@ -130,7 +130,7 @@ An animated flex-based bar where each segment's `width` is a percentage of the g
 
 ---
 
-## 🎨 Design Decisions
+## Design Decisions
 
 - **Dark theme with orange accent** (`#FF6B35`) — warm, energetic, stands out in a sea of green/blue fintech apps
 - **Syne font** for headings — geometric, bold, memorable; paired with DM Sans for body copy
@@ -140,7 +140,7 @@ An animated flex-based bar where each segment's `width` is a percentage of the g
 
 ---
 
-## 🗂 Flowcharts
+## Flowcharts
 
 ### Main user flow
 ```
@@ -169,7 +169,7 @@ While creditors and debtors remain:
 
 ---
 
-## 🏛 Architecture Overview
+## Architecture Overview
 
 ```
 React (Vite) SPA
@@ -191,7 +191,7 @@ All state lives at the root `App` level and is passed down as props. No global s
 
 ---
 
-## 🤔 Challenges & How I Solved Them
+## Challenges & How I Solved Them
 
 **Challenge 1: Smooth tab transitions without a library**  
 React's conditional rendering (`{tab === "setup" && <TabSetup />}`) unmounts components instantly. I wrote a `useAnimatedMount` hook that delays unmounting by 350ms, giving CSS time to play the exit animation before the element disappears.
@@ -207,7 +207,7 @@ When using custom RM amounts, the amounts must sum exactly to the item price. Fl
 
 ---
 
-## 👤 Author
+## Author
 
 **[Chin Ee Sheng]**  
 APU — [APU Bachelor Of Science (Honours) In Computer Science (Cyber Security]
