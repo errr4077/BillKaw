@@ -1,5 +1,5 @@
-# 🦅 BillKaw — Split Bills, Not Friendships
-
+# 🦅 BillKaw (Split Bills, Not Friendships)
+Chin Ee Sheng     APU Bachelor Of Science (Honours) In Computer Science (Cyber Security )
 > Shortcut Asia Internship Challenge 2026 submission
 
 BillKaw is a sleek, animated bill-splitting web app built for the Malaysian context. It handles everything from equal splits to custom Malaysian taxes (SST + service charge), tracks who paid for what, visualises the split, and can email each person their personalised bill breakdown — all in one smooth, polished experience.
@@ -209,8 +209,8 @@ When using custom RM amounts, the amounts must sum exactly to the item price. Fl
 
 ## 👤 Author
 
-**[Your Name]**  
-APU — [Your Course] — [Your Student ID]  
+**[Chin Ee Sheng]**  
+APU — [APU Bachelor Of Science (Honours) In Computer Science (Cyber Security]
 Built for Shortcut Asia Internship Challenge 2026
 
 ---
